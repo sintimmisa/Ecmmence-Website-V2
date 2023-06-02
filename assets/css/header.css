@@ -1,0 +1,72 @@
+.hero-section{
+    height: 100vh;
+background: url(../images/hero.jpg) no-repeat center center /cover;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.501);
+}
+.hero-section .container{
+    position: absolute;
+    top:20px;
+    width:90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.hero-section .main-menu{
+    display: none;
+}
+
+.hero-section .top-icons{
+    color:white;
+}
+.hero-section .wel-msg{
+    z-index: 2;
+}
+.wel-msg-content{
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding: 35px 20px;
+
+}
+
+
+@media only screen and (min-width:960px){
+
+.hero-section .main-menu{
+    display: block;
+}
+
+.hero-section .main-menu ul{
+    display: flex;
+}
+.hero-section .main-menu ul li{
+    margin-right:30px;
+}
+
+ ul li a{
+    color: white;
+    font-family:poppins;
+    font-weight: 400;
+ }
+
+    
+}
