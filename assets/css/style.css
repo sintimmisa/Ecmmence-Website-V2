@@ -5,3 +5,19 @@
     list-style: none;
     text-decoration: none;
 }
+
+.btn{
+    width: 70px;
+    color:black;
+    font-family: dosis;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 0.8px solid black;
+    text-align: center;
+
+}
+
+h1, h2{
+    font-family: poppins;
+}
+
