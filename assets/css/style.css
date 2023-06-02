@@ -6,6 +6,11 @@
     text-decoration: none;
 }
 
+main{
+    width:90%;
+    margin: 50px auto;
+    
+}
 .btn{
     width: 70px;
     color:black;
@@ -17,7 +22,4 @@
 
 }
 
-h1, h2{
-    font-family: poppins;
-}
 

@@ -1,17 +1,13 @@
-main{
-    width:90%;
-    margin: 50px auto;
-    
-}
 
-.category{
+/*Mobile View - Product Category*/
+.category-section{
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items: center;
     row-gap: 20px;
 }
-.category .cat-bg{
+.category-section .cat-bg{
     display: flex;
     align-items: center;
     width: 100%;
@@ -19,22 +15,25 @@ main{
     padding: 30px;
     
 }
-.category .cat-box1{
+.category-section .cat-box1{
     background: url("../images/furn.jpg") no-repeat center center /cover;
 }
-.category .cat-box2{
+.category-section .cat-box2{
     background: url("../images/bask.jpg") no-repeat center center /cover; 
 }
 
-.category .cat-content{
+.category-section .cat-content{
     width: 200px;
     display: flex;
     flex-direction: column;
     row-gap: 10px;
 }
 
+
+/*Desktop View - Product Category*/
+
 @media only screen and (min-width: 768px){
-    .category {
+    .category-section {
         display: flex;
         flex-direction: row;
         column-gap: 20px;

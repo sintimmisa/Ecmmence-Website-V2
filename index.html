@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/header.css" />
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/category.css" />
+    <link rel="stylesheet" href="./assets/css/products.css" />
     <title>TMART | Ecommerce Project</title>
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,73 +21,105 @@
     <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
-   <header class="header hero-section">
-       <div class="container">
+    <header class="header hero-section">
+      <div class="container">
+        <a href="" class="logo"
+          ><img src="./assets/images/logo_white.png" alt="" srcset=""
+        /></a>
 
-        <a href="" class="logo"><img src="./assets/images/logo_white.png" alt="" srcset=""></a>
+        <nav class="main-menu">
+          <ul>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
 
-         <nav class="main-menu">
-            <ul>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Shop</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-         </nav>
-          
-    <!--Top Icons-->
-    <div class="top-icons mobile-menu">
-        <i data-feather="user"></i>
-        <i data-feather="shopping-cart"></i>
-        <i data-feather="menu"></i>
+        <!--Top Icons-->
+        <div class="top-icons mobile-menu">
+          <i data-feather="user"></i>
+          <i data-feather="shopping-cart"></i>
+          <i data-feather="menu"></i>
+        </div>
+      </div>
 
-    </div>
+      <!--Overlay-->
+      <div class="overlay"></div>
 
-       </div>
+      <div class="wel-msg">
+        <div class="wel-msg-content">
+          <h1>New Product Collection</h1>
+          <a href="" class="btn">Shop Now</a>
+        </div>
+      </div>
+    </header>
 
-
-
-    <!--Overlay-->
-    <div class="overlay"></div>
-
-       <div class="wel-msg">
-          <div class="wel-msg-content">
-            <h1>New Product Collection</h1>
-            <a href="" class="btn" >Shop Now</a>
+    <main class="container">
+      <!--product Caterogy-->
+      <section class="category-section">
+        <div class="cat-bg cat-box1">
+          <div class="cat-content">
+            <h2>New Furniture Collection</h2>
+            <a href="" class="btn">Shop Now</a>
           </div>
-       </div>
+        </div>
 
+        <div class="cat-bg cat-box2">
+          <div class="cat-content">
+            <h2>New Baskets Collection</h2>
+            <a href="" class="btn">Shop Now</a>
+          </div>
+        </div>
+      </section>
 
+      <h2 class="prod-heading">Best Products</h2>
+      <section class="products-section">
+      
 
-   </header>
+        <!--Product Box 1-->
+        <div class="prod prod-box1 ">
+            <div class="over-lay"></div>
+          <div class="prod-content">
+           
+            <h3 class="prod-name">Christopher Knight Furniture</h3>
+            <p class="price">$ 235.23</p>
+          </div>
+        </div>
 
-   <main class="container">
-  <!--product Caterogy-->
-        <section class="category">
+        <!--Product Box 2-->
+        <div class="prod prod-box2">
+          <div class="prod-content">
+            <h3 class="prod-name">Christopher Knight Furniture</h3>
+            <p class="price">$ 235.23</p>
+          </div>
+        </div>
 
-            <div class="cat-bg cat-box1">
-                <div class="cat-content ">
-                    <h2>New Furniture Collection</h2>
-                    <a href="" class="btn">Shop Now</a>
-                </div>
-            </div>
+        <!--Product Box 3-->
 
-            <div class="cat-bg cat-box2">
-                <div class="cat-content">
-                    <h2>New Baskets Collection</h2>
-                    <a href="" class="btn">Shop Now</a>
-                </div>
-            </div>
+        <div class="prod prod-box3">
+          <div class="prod-content">
+            <h3 class="prod-name">Christopher Knight Furniture</h3>
+            <p class="price">$ 235.23</p>
+          </div>
+        </div>
 
-
-        </section>
-        <section class="products">
-   
-        </section>
-
-   
-    
-   </main>
+        <!--Product Box 4-->
+        <div class="prod prod-box4">
+          <div class="prod-content">
+            <h3 class="prod-name">Christopher Knight Furniture</h3>
+            <p class="price">$ 235.23</p>
+          </div>
+        </div>
+        <!--Product Box 5-->
+        <div class="prod prod-box5">
+          <div class="prod-content">
+            <h3 class="prod-name">Christopher Knight Furniture</h3>
+            <p class="price">$ 235.23</p>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!--Script for addin ICONs-->
     <script>
