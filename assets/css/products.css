@@ -74,7 +74,7 @@
 .prod-heading{
     margin:50px auto;
     font-family: poppins;
-    font-weight:200;
+    font-weight:300;
     font-size: 28px;
     color:black;
     text-align: center;
@@ -91,6 +91,7 @@
     color:white;
     font-family: poppins;
     font-size: 16px;
+    font-weight: 300;
 
 }
 
@@ -114,7 +115,7 @@
 
     .products-section .prod{
         height: 250px;;
-        width: 30.7%;
+        width: 31.6%;
         background-size: contain;
       
     }
