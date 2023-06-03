@@ -1,7 +1,7 @@
-#This is a modified version of the earlier assignment
+#This is a modified version of the earlier assignment at https://github.com/sintimmisa/Ecommerce-Website
 
 Objective
-Build a simple ecommerce website
+Build a simple ecommerce website 
 
 Instructions
 
