@@ -2,7 +2,7 @@
 /*Mobile View*/
 .container{
     width:93%;
-    margin: 10% auto;
+    margin: 5% auto;
 }
  .container h1{
     text-align: center;
@@ -12,7 +12,7 @@
  }
 
  .products-section{
-    margin:10% 0;
+    margin:5% 0;
     display: flex;
     flex-direction: column;
     gap: 10;
