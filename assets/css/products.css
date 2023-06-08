@@ -15,7 +15,7 @@
     margin:5% 0;
     display: flex;
     flex-direction: column;
-    gap: 10;
+    gap: 15;
  }
  .products-section .prod-item{
     width: 100%;
@@ -134,8 +134,9 @@
         flex-direction: row;
         flex-wrap: wrap;
          column-gap:1% ;
-       
-         background-size: contain;
+         
+    
+        
         
      }
 
@@ -143,6 +144,8 @@
         width: 250px;
         margin-bottom:1%;
         flex-basis:24.2% ;
+        
+        
         
         
 
