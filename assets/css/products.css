@@ -1,5 +1,110 @@
 
 /*Mobile View*/
+.container{
+    width:93%;
+    margin: 10% auto;
+}
+ .container h1{
+    text-align: center;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 30px;
+ }
+
+ .products-section{
+    margin:10% 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10;
+ }
+ .products-section .prod-container{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    padding: 20px;
+     background-position: center center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.413);
+    background-blend-mode: overlay;
+    margin-bottom: 10%;
+   
+ }
+
+
+ .products-section .prod-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    align-items: center;
+    text-align: center;
+ 
+ }
+
+ .products-section h2, .products-section .price{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+ }
+products-section h2{
+    font-size:
+
+}
+/*Product Background Images*/
+ .products-section .box1{
+    
+    background-image: url("../images/pr1.png");
+   
+ }
+
+ .products-section .box2{
+    
+    background-image: url("../images/pr2.png");
+   
+ }
+
+ .products-section .box3{
+    
+    background-image: url("../images/pr3.png");
+   
+ }
+
+ .products-section .box4{
+    
+    background-image: url("../images/pr4.png");
+   
+ }
+
+ .products-section .box5{
+    
+    background-image: url("../images/pr5.png");
+   
+ }
+ .products-section .box6{
+    
+    background-image: url("../images/pr6.png");
+   
+ }
+ .products-section .box7{
+    
+    background-image: url("../images/pr7.png");
+   
+ }
+
+ .products-section .box8{
+    
+    background-image: url("../images/pr8.png");
+   
+ }
+
+
+
+
+
+/*Mobile View
 
 .products-section{
     margin: 0px auto;
@@ -20,7 +125,7 @@
 
 }
 
-/*Common Class for products*/
+/*Common Class for products
 .products-section .prod {
     position: relative;
     height: 450px;
@@ -28,6 +133,8 @@
     justify-content:center; 
     align-items: center;
     padding: 20px;
+    background: black;
+    background
    
     
    
@@ -102,13 +209,14 @@
     width:100%;
 }
 
-/*Table View*/
+/*Tablet View
 @media only screen and (min-width: 768px){
     .products-section {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         column-gap:2.3%;
+     
         
        
     }
@@ -122,7 +230,7 @@
    
 }
 
-/*Desktop View*/
+/*Desktop View
 @media only screen and (min-width: 960px){
     .products-section {
         display: flex;
